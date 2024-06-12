@@ -1,6 +1,7 @@
 @use 'hero';
 @use './components/infos_bar';
 @use './components/buttons';
+@use 'event.scss';
 
 
 * {
@@ -10,6 +11,7 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     list-style: none;
+    color: #FFF;
 }
 
 .container {

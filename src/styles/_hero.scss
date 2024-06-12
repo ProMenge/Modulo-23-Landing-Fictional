@@ -1,7 +1,9 @@
+@use 'variables';
+
 .hero {
     padding-top: 64px;
     padding-bottom: 100px;
-    // background-image: url(../images/fundo.png);
+    background-image: url(../images/fundo.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -29,7 +31,7 @@
         font-size: 40px;
         line-height: 56px;
         font-weight: 800;
-        color: #ffffff;
+        color: variables.$textColor1;
         text-align: center;
     }
 

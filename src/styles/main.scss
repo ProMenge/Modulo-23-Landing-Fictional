@@ -2,7 +2,7 @@
 @use './components/infos_bar';
 @use './components/buttons';
 @use 'event.scss';
-
+@use 'variables';
 
 * {
 
@@ -11,7 +11,7 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     list-style: none;
-    color: #FFF;
+    color: variables.$textColor1;
 }
 
 .container {

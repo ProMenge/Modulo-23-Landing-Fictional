@@ -1,3 +1,5 @@
+@use '../variables';
+
 .button {
 
     padding: 12px;
@@ -9,8 +11,8 @@
 
     &--primary {
 
-        color: #fff;
-        background-color: #4f2ac3;
+        color: variables.$textColor1;
+        background-color: variables.$purple;
 
     }
 
